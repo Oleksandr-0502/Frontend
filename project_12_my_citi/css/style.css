@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+
+}
+a{
+    text-decoration: none;
+
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+.container{
+max-width: 1020px;
+padding: 0 10px;
+margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content{
+    flex: 1 0 auto;
+    background-image: url(../images/Снимок\ экрана\ от\ 2022-07-24\ 14-52-55.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.content.content-mp{
+    background-image: none;
+    background-color: #ccc;
+}
+.header{
+border: 1px solid #ccc;
+height: 100px;
+color: #fff;
+background-color:rgb(58,58,58);
+}
+
+.header_inner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ .header_inner img{
+width: 75px;
+border: 1px solid #fff;
+}
+.name{
+    font-size: 60px;
+    font-family: 'Orelega One', cursive;
+}
+li{
+    padding: 0 10px;
+
+}
+li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.active{
+font-weight: 700;
+color: #ccc;
+}
+h2{
+    font-size: 45px;
+    font-family: 'Orelega One', cursive;
+    font-weight: 400;
+text-align: center;
+}
+h3{
+    font-size: 23px;
+    font-family: 'Orelega One', cursive;
+    font-weight: 400;
+
+}
+article{
+    background-color: #fff;
+    border: 1px solid rgb(58,58,58);
+    margin-bottom: 10px;
+    padding: 30px 15px;
+}
+.misto_img{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color:rgb(58,58,58);
+    border: 1px solid #ccc;
+    height: 100px;
+    color: #fff;
+}
+.footer span{
+    font-size: 16px;
+   text-align: center;
+   font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+}
